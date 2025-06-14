@@ -24,6 +24,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",
     "https://theayushdev.github.io",
+    "https://fastapibackend.onrender.com/"
 ]
 
 # add midellware
