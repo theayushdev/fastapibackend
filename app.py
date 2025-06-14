@@ -39,7 +39,7 @@ app.add_middleware(
 def index():
     return {'message': 'Hello, World!'}  # Return a JSON response
 
-@app.post('/suppiler')
+@app.post('/supplier')
 async def add_supplier(supplier_info: supplier_pydanticIn):
     supplier = await Supplier.create(**supplier_info.dict(exclude_unset=True))
     response = await supplier_pydanticIn.from_tortoise_orm(supplier)
