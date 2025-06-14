@@ -23,7 +23,7 @@ app = FastAPI()
 # adding cors urls 
 origins = [
     "http://localhost:5173",
-    "https://theayushdev.github.io",
+    "https://theayushdev.github.io/fastapifront",
     "https://fastapibackend.onrender.com/"
 ]
 
