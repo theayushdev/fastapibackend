@@ -23,6 +23,7 @@ app = FastAPI()
 # adding cors urls 
 origins = [
     "http://localhost:5173",
+    "https://theayushdev.github.io",
 ]
 
 # add midellware
